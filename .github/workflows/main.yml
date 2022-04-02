@@ -44,4 +44,4 @@ jobs:
         with:
           images: luc4sd3s0uz4/temp:${{ github.run_number }}
           manifests: |
-            deployment.yaml
+            src/deployment.yaml
